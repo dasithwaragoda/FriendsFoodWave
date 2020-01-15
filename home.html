@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <title>Friends Food Wave</title>
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="img/apple-touch-icon.png" sizes="32x32" href="img/apple-touch-icon.png">
+<link rel="icon" type="img/apple-touch-icon.png" sizes="16x16" href="img/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/heart.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/spinletters.css">
+
+
+
+
+<style>
+    table, th, td {
+  border: 0px solid black;
+  text-align: center;
+}
+</style>
+
+
+<style>
+.responsive {
+  width: 100%;
+  height: auto;
+}
+</style>
+
+
+        <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.jumbotron {
+  /* The image used */
+  background-image: url("img/backgroundimg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    font size:10px;
+    font color: aliceblue;
+}
+</style>
+
+
+
+
+
+
+</head>
+<body>
+
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="home.html">Friends Food Wave</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav  navbar-right">
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+               <li><a href="php/login.php">Login</a></li>
+                <li><a href="php/register.php">Sign Up</a></li>
+
+            </ul>
+
+            <br>
+
+
+
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="jumbotron">
+    <div class="container text-center">
+       <br><br><br>
+        <h1><font color="#FF5733">Welcome to Friends Food Wave</font></h1>
+        <br><br><br>
+        <div class="text">
+            <p><font size="10">Our Foods are</font></p>
+  <p>
+    <font size="10"><span class="word wisteria">Tasty</span></font>
+    <font size="10"><span class="word belize">Delicious</span></font>
+
+  </p>
+</div>
+    </div>
+</div>
+
+<br>
+
+
+<table style="width:100%">
+
+    <th>
+    <h1><font color="red"><i>OUR MISSION</i></font></h1></center>
+
+
+<br>
+
+
+ <center><p><font color="white" size="4"><b>To offer reasonably priced quality food,<br>served quickly, in attractive, clean surroundings.</b></font></p></center></th>
+
+
+    <th><center><h1><font color="red"><i>OUR VISION</i></font></h1></center>
+
+
+<br>
+
+
+ <center><p><font color="white" size="4"><b> To be the most profitable QSR business,<br> through a strong franchise system and great people,<br> serving the best foods in the world.</b></font></p></center></th>
+
+
+</table>
+
+ <br><br>
+
+
+<center>
+
+        <video width="450" height="250" controls>
+  <source src="videos/video1.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+
+</video><br><br>
+
+<div class="d">
+<h5><i><font color="white">Use your favorite blend of seasonal root vegetables to make
+    these delicious vegetable chips.<br><br> Though many oven-baked chips call for
+    tossing the vegetables in oil,<br><br> we like the control of spraying the oil directly on the veggies.
+    Season them with za’atar, <br><br>the Middle Eastern spice blend we shake onto everything
+from roast chicken to hummus to grilled pineapple.</font></i></h5>
+</div>
+
+</center>
+
+<br><br>
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="img/gallery1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/gallery2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/gallery3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/gallery4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/gallery1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/gallery2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img/gallery3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img/gallery4.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+<br><br>
+
+
+<footer class="container-fluid text-center">
+
+
+
+    <table style="width:100%">
+
+  <tr>
+    <td><h4><font color="white">Friends Food Wave</font></h4></td>
+    <td></td>
+    <td><font color="white">Let Us Be Social, Hurry Up!<br><br>
+
+
+
+
+     </font></td>
+  </tr>
+  <tr>
+    <td><font color="white">186,<br>Kandy Road,<br>Kaduwela.<br><br>071-5746212</font></td>
+    <td><img src="img/pic2.png" height="200" width="200"></td>
+    <td><img src="img/pic3.png" height="150" width="150"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png"></a> <a href="https://twitter.com" target="_blank"><img src="img/twitter.png"></a> <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png"></a></td>
+  </tr>
+</table>
+
+
+
+
+    <h3><font color="white">Sri Lankan
+
+<svg class="heart" viewBox="0 0 32 29.6">
+    <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+        c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+</svg>
+
+Food Product.</font></h3>
+</footer>
+
+
+
+</body>
+</html>
+
+
+<script src="js/login.js"></script>
+<script src="js/spinletters.js"></script>
